@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 56px;
+}
+
+.container {
+  #hizmetlerimiz, #yaptiklarimiz {
+    margin-bottom: 30px;
+  }
+
+  #iletisim {
+    .links {
+      a {
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
